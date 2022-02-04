@@ -83,13 +83,20 @@ h1{
     padding: 0;
 }
 
+#banner{
+    max-width: 600px;
+    
+}
 
+.box img{
+    max-width: 150px;
+    max-height: 150px;
+}
 
 .card1-img{
     align-self: center;
     flex: 1;
     margin-left: 100px;
-    
 }
 
 .card1-content{
@@ -193,10 +200,13 @@ h1{
     padding: 0;
 }
 
-.box img{
-    border: solid #3882F6 2px;
-    border-radius: 12px;
+.box img:hover{
+    max-height: 200px;
+    max-width: 200px;
 }
+
+
+
 
 .card2{
     padding-top: 100px;
@@ -208,10 +218,23 @@ h1{
 }
 
 .card2 figcaption{
-    text-align:center;;
+    text-align:center;
+    margin: 10px 0 0 0;
 }
 
+a:hover{
+    color: #ffffff;
+    font-size: 19px;
+}
 
+a:active{
+    color: #d3d5d8;
+    font-size:18px;
+}
+
+button:hover{
+    font-size: 15px;
+}
 
 
 
